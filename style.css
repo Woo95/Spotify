@@ -1,0 +1,122 @@
+body{
+    color:white;
+}
+
+a{
+    color:white;
+}
+
+nav{
+    background-color:black;
+    height:80px;
+}
+
+section{
+
+    height: 800px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+    background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(-60%, #f037a5),
+    color-stop(140%, #fae62d)
+  );
+}
+
+footer{
+    background-color:black;
+    height:500px;
+}
+
+.nav-style{
+    display:flex;
+    justify-content:center;
+}
+/* 자손한테만 적용됨 */
+
+.container{
+    width: 1080px;
+}
+/* border 지울것 ############# */
+
+.nav-contents{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.bubble-image{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+}
+
+.head-style{
+    font-size:100px;
+    font-weight:bold;
+}
+
+.head-contents{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.button-style{
+    border:none;
+    border-radius:50px;
+    width:250px;
+    height:50px;
+}
+
+.footer-style{
+    display:flex;
+    justify-content:center;
+}
+
+.footer-contents{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.font-custom{
+    font-size:50px;
+}
+
+.color-hover{
+    text-decoration:none;
+}
+
+.color-hover:hover{
+    color:yellow;
+}
+
+.margin-column{
+    margin-top: 15px;
+}
+
+.footer-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.second-row{
+    display:flex;
+}
+
+.second-row2{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.margin-text{
+    margin-left: 15px;
+}
